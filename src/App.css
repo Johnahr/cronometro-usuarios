@@ -26,6 +26,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  overscroll-behavior-y: contain; /* evita pull-to-refresh en móviles */
+  margin: 0;
+  padding: 0;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
